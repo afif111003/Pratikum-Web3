@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector 1</title>
+    <style>
+        *{
+            color: brown;
+            background-color: bisque;
+        }
+        .judul{
+            color: black;
+        }
+        p.success{
+            color: green;
+        }
+        p#danger{
+            color: blue;
+        }
+        h2 {
+            color: black;
+        }
+        /*#idl{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        .class1{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        .class2{
+            font-size: 32px;
+        }*/
+        .font-xs {
+            color: red;
+            font-size: 24px;
+        }
+        a[href]{
+            color: aqua;
+            font-size: 50px;
+        }
+        h1,h2,h3{
+            text-transform: uppercase;
+        }
+        span#penting{
+            color: red;
+            font-weight: bold;
+        }
+        p.judul{
+            color: red;
+        }
+        div p{
+            font-size: x-large;
+        }
+        div > p{
+            color: cornflowerblue;
+        }
+        /*div section p{
+            font-size: small;
+        }
+        .judul {
+            font-weight: bold;
+            font-size: 32px;
+            color: blue;
+        }*/
+    </style>
+</head>
+
+<body>
+    <h1 class="font-xs">Hello Word</h1>
+    <p> This is Paragraf one</p>
+    <hr>
+    <h2 class="judul">ini adalah judul</h2>
+    <p>This is Second Paragraf</p>
+    <hr>
+    <h2 class="class2">ini adalah judul</h2>
+    <p class="class2">This is Second Paragraf</p>
+    <hr>
+    <h3>This is Heading Tree</h3>
+    <p class="danger">Login gagal</p>
+    <hr>
+    <h3> This is Heading Two</h3>
+    <p class="success">Login anda Berhasil</p>
+    <hr>
+    <a>Link not active</a>
+    <a href="https://bif-sby.telkomuniversity.ac.id/" target="_blank">Link active</a>
+    <hr>
+    <p class="judul">Lorem ipsum dolor sit amet <span id="Penting">Pemrograman Web Informatika</span>. consectetur adipisicing elit. Nesciunt molestias, neque voluptates minima voluptatem debitis ratione repudiandae ullam molestiae, laboriosam perspiciatis est tenetur alias necessitatibus rerum? Hic ipsa tempore ullam?</p>
+    <hr>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam obcaecati minima ipsam corrupti totam quisquam iste explicabo in molestiae aperiam, sunt molestias dignissimos et praesentium facilis minus rem eveniet</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam obcaecati minima ipsam corrupti totam quisquam iste explicabo in molestiae aperiam, sunt molestias dignissimos et praesentium facilis minus rem eveniet</p>
+
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam obcaecati minima ipsam corrupti totam quisquam iste explicabo in molestiae aperiam, sunt molestias dignissimos et praesentium facilis minus rem eveniet</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam obcaecati minima ipsam corrupti totam quisquam iste explicabo in molestiae aperiam, sunt molestias dignissimos et praesentium facilis minus rem eveniet</p>
+        </section>
+    </div>
+
+</body>
+</html>
